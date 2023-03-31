@@ -6,47 +6,51 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body id="thebody">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id='title'>Microvers Trials Survey Form
-    </h1>
+    <h1 id='title'>Microvers Trials Survey Form</h1>
     
-    <p id='description'>Thank you for taking the time to apply for the collaborative trials
-    </p>
+    <p id='description'>Thank you for taking the time to apply for the collaborative trials</p>
     
     <form id='survey-form'>
     
-      <input id='name' type="text" placeholder="Name" required></input>
-    <label id="name-label">Name</label>
-      <input id='email' type="email" placeholder='email'required></input>
-    <label id='email-label'>Email</label>
-      <br><input id='number' type="number"
-      placeholder='number' min="1" max="100" required></input>
-<label id="number-label">Number
-</label>
+      <input id='name' type="text" placeholder="Your name" required></input>
+    <label id="name-label">Name</label><br>
+
+      <input id='email' type="email" placeholder='Your email'required></input>
+    <label id='email-label'>Email</label><br>
+
+      <input id='number' type="number" placeholder='Your age' min="1" max="100" required></input><label id="number-label"> Age</label><br>
+
 <select id='dropdown'> 
-      <option></option>
-      <option></option>
-      <option></option>
-</select>
+      <option>America</option>
+      <option>Africa</option>
+      <option>Europ</option>
+      <option>Asia</option>
+      <option>Oceania</option>
+</select> <label id="continent">Continent</label><br>
 <br>
 <br>
 
 <div>
-<input type='radio' value="Absolutely" name="Definitely"> </input> <br>
-<input type='radio' value="Absolutely" name="Definitely"> </input> <br>
-</div> <br>
+<p>Why you like microverse</p>
+<input type='radio' value="Absolutely" name="Definitely"> it's very interesting</input> <br>
+<input type='radio' value="Absolutely" name="Definitely"> it's excellent for learning </input> <br>
+</div> <br> <br>
 
 <div>
-<input type='radio' value="Perhaps" name="Maybe">  </input> <br>
-<input type='radio' value="Perhaps" name="Maybe">  </input> <br>
-</div> <br>
+  <p>Why do you learn programming</p>
+<input type='radio' value="Perhaps" name="Maybe"> Because I like to solve problems </input> <br>
+<input type='radio' value="Perhaps" name="Maybe"> Because I like the future technologies </input> <br>
+</div> <br> <br>
 
 <div>
-<input type='checkbox' value="Not clear" name="Not sure">  </input> <br>
-<input type='checkbox' value="Not clear" name="Not sure">  </input> <br>
+  <p>What's your knowledge in programming</p>
+<input type='checkbox' value="Not clear" name="Not sure"> I'm an expert software developer  </input> <br>
+<input type='checkbox' value="Not clear" name="Not sure"> I'm becoming an expert software developer </input> <br>
 </div> <br>
 
+Additional comments <br>
 <textarea></textarea><br>
 <input id='submit' type='submit'></input>
 
